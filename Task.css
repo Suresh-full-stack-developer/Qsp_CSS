@@ -1,0 +1,39 @@
+*{
+    background-color:whitesmoke;
+}
+mark{
+    background-color: yellow;
+}
+#san{
+    background-color: lightblue;
+}
+
+
+.che{
+        color: yellow;
+        background-color: purple;
+        text-align: center;
+}
+img{
+    height: 500px;
+    width: 900px;
+}
+p{
+    font-size: larger;
+}
+
+#tpt{
+    background-color:skyblue;
+}
+#yhs{
+ background-color: greenyellow;
+}
+#jli{
+    background-color: aqua;
+}
+#jtj{
+    background-color: orange;
+}
+#man{
+    background-color:burlywood;
+}
