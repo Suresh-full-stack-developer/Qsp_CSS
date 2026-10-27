@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+}
+
+/* #box h1{
+    color: brown;
+} */
+
+/* #box section h1{
+    color: blueviolet;
+} */
+    
+/* 
+div section h1{
+    color: cadetblue;
+} */
+
+/* this is for direct child */
+
+#box > h1{
+    color:darkgreen;
+}
+
+div > h1{
+    color: red;
+}
+
+section > h1{
+    color: yellow;
+
+}
+div > h2{
+    color: teal;
+}
+
+section > h2{
+    color:steelblue
+}
