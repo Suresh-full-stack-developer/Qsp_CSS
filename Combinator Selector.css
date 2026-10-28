@@ -1,6 +1,6 @@
-h1{
+/* h1{
     color: blue;
-}
+} */
 
 /* #box h1{
     color: brown;
@@ -17,7 +17,7 @@ div section h1{
 
 /* this is for direct child */
 
-#box > h1{
+/* #box > h1{
     color:darkgreen;
 }
 
@@ -35,4 +35,33 @@ div > h2{
 
 section > h2{
     color:steelblue
+} */
+
+/* Adjacent selector */
+
+/* h1 +h2{
+    color: violet;
 }
+
+h2 + h2{
+    color: aqua;
+} */
+
+/* General sibilng Selector */
+
+h1 ~ h2{
+
+    color: blue;
+}
+
+h2 ~ h3{
+    color: brown;
+}
+h1 ~ h1{
+    color: green;
+}
+
+
+
+
+
