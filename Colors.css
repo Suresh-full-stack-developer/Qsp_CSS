@@ -1,0 +1,16 @@
+div{
+    height: 250px;
+    width: 250px;
+}
+#box1{
+    background-color:violet;
+}
+#box2{
+    background-color: aqua;
+}
+#box3{
+    background-color: #be35;
+}
+#box4{
+    background-color: #f358;
+}

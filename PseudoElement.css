@@ -1,12 +1,10 @@
 body{
-    background-color: #fff;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy0YeFfx75lpsKo4h9aNnLhcAI3IHLsyWcA559Fnxzvg&s=10");
     background-size:cover;
     background-position: ;
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
 
 h1{
     text-align: center;
@@ -38,6 +36,10 @@ h3::first-line{
     color:yellow;
     
 }
+h3::selection{
+    background-color:tomato;
+    color: white;
+}
 h5{
     font-size: 25px;
     color: royalblue;
@@ -46,3 +48,41 @@ h5{
 h5::after{
     content:"💜";
 }
+label{
+    color:navy;
+}
+input{
+    color: red;
+    background-color: lightpink;
+    height: 25px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+input::placeholder{
+    font-family: Calibri;
+    font-size: 15px;
+    color:steelblue
+}
+ul{
+    color: white;
+    font-size: 20px;
+}
+ul li::marker{
+    color: aqua;
+}
+ul li{
+    text-align: left;
+}
+
+h2{
+    font-family: arial;
+    font-size: 35px;
+    color: orange;
+}
+div{
+    height: 300px;
+    width: 400px;
+    /* background-color: gray; */
+}
+
