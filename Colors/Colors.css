@@ -8,9 +8,38 @@ div{
 #box2{
     background-color: aqua;
 }
+
 #box3{
     background-color: #be35;
 }
 #box4{
     background-color: #f358;
+}
+
+#box5{
+    background-color: rgb(200,150,254);
+}
+#box6{
+    background-color:rgb(250,100,52);
+}
+
+#box7{
+    background-color: rgba(20,150,234,0.45);
+}
+#box8{
+    background-color:rgba(250,100,52,0.3);
+}
+
+#box9{
+    background-color: hsl(250,90%,70%);
+}
+#box10{
+    background-color:hsl(180,50%,35%);
+}
+
+#box11{
+    background-color: hsl(250,90%,70%,0.45);
+}
+#box12{
+    background-color:hsl(180,50%,65%,0.4);
 }
