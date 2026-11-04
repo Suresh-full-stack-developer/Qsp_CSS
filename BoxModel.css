@@ -1,4 +1,4 @@
-div{
+#box1{
     height: 400px;
     width: 500px;
     background-color: yellowgreen;
@@ -11,4 +11,31 @@ div{
 h1{
     padding-top: 50px;
     padding-left: 110px;
+}
+
+#box2{
+
+    height: 400px;
+    width: 400px;
+    background-color:lightblue;
+    border: 5px dashed red ; /*shorthand property */
+    padding: 150px 150px 200px 150px ;
+    box-sizing: border-box;
+    margin: 100px 0px 0px 400px; /* Shorthand property */
+}
+
+h2{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#box3{
+    height: 400px;
+    width: 400px;
+    background-color:violet;
+    /* border: 5px dashed red ; shorthand property */
+    padding: 150px 150px 200px 150px ;
+    box-sizing: border-box;
+    margin: 100px 0px 0px 400px; /* Shorthand property */
+    border-radius: 20px 30px 40px 50px;
 }
