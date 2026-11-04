@@ -1,0 +1,62 @@
+*{
+    margin-top:10px;
+}
+a{
+    text-decoration-line:none;
+}
+a h1:hover{
+    color:black ;
+}
+a h1{
+    color: white;
+    font-size: 29px;
+}
+#full{
+    height: 800px;
+    width: 350px;
+    background-color: yellow;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#full > div{
+    margin-left: 85px;
+}
+div{
+    height: 170px;
+    width: 170px;
+    background-color: red;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#amazon,#meesho{
+    padding: 60px 0px 0px 30px;
+    border-radius: 100%;
+
+}
+#flipkart{
+    padding: 60px 0px 0px 30px;
+    border-radius: 50px 0px 50px 0px;
+}
+/* #meesho{
+    padding: 60px 0px 0px 30px;
+    border-radius: 100%;
+} */
+
+#myntra{
+    padding: 60px 0px 0px 30px;
+    border-radius: 0px 50px 0px 50px;
+}
+#amazon:hover{
+    background-color: lightcoral;
+}
+#flipkart:hover{
+    background-color:lightblue;
+}
+#meesho:hover{
+    background-color: lightpink;
+}
+#myntra:hover{
+    background-color:lightsalmon;
+}
