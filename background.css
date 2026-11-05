@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+#s1{
+    background-color: lightblue;
+}
+#s2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTChK65BIfIBPVgt4mOR9v0SKuyOkUKwld5Bf6PzpHxf_pq9VIKCJTJntw&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#s3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Bn3o3h82FNDyM_DSyPRBzYaqpbbiSf7u335_jdxxhFOpC0AI7YPC95A&s=10);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
