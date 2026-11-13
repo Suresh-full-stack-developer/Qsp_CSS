@@ -1,0 +1,28 @@
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position:relative ;
+    top: 100px;
+    left: 200px;
+} */
+ nav{
+     height: 80px;
+     width: 100%;
+ }
+ #n1{
+    background-color: yellow;
+    position: static;
+    top: 200px; /* it is not work */
+ }
+ #n2{
+    background-color: red;
+    position: fixed;
+    top: 100px;
+
+ }
+ #n3{
+    background-color: greenyellow;
+    position: sticky;
+    top: 350px;
+ }

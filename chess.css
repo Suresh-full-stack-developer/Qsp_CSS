@@ -1,0 +1,70 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(red,black);
+}
+#box{
+    height: 720px;
+    width: 720px;
+    border: 3px solid white;
+    position: relative;
+    left:350px;
+    top:25px;
+}
+.cell {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+}
+.cell img{
+    height: 65px;
+    width: 65px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.w{
+    background-color: white;
+}
+.b{
+    background-color:aqua;
+}
+.blr1 {
+    top: 0px;
+    left: 0px;
+}
+.blh1{
+    left: 90px;
+}
+.blb1{
+    left: 180px;
+}
+.blq{
+    left: 270px;
+}
+.blk{
+    left: 360px;
+}
+.blb2{
+    left: 450px;
+}
+.blh2{
+    right: 90px;
+}
+.blr2{
+    right: 0px;
+}
+.top{
+    
+}
+.c21{
+    top: 90px;
+}
+.c22{
+    top:90px;
+    left: 90px;
+}
+.c23{
+    top: 90px;
+    left: ;
+}
