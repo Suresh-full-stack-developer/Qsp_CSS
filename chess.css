@@ -1,14 +1,27 @@
 section{
-    height: 100vh;
+    height: 105vh;
     width: 100%;
-    background: linear-gradient(red,black);
+    background: linear-gradient(black,rgb(99, 210, 247));
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 10 0 10px;
+}
+
+h1::after{
+    content:"🎮";
+}
+h1::first-letter{
+    color: aqua;
+    font-size: larger;
 }
 #box{
     height: 720px;
     width: 720px;
-    border: 3px solid white;
+    border: 3px solid lightskyblue;
     position: relative;
-    left:350px;
+    left:415px;
     top:25px;
 }
 .cell {
@@ -55,16 +68,211 @@ section{
     right: 0px;
 }
 .top{
-    
+    top: 90px; 
 }
+.top2{
+    top: 180px;
+}
+.top3{
+    top: 270px;
+}
+.top4{
+    top: 360px;
+}
+.top5{
+    top: 450px;
+}
+.top6{
+    bottom:180px  ;
+}
+.top7{
+    bottom: 90px;
+}
+.top8{
+    bottom: 0px;
+}
+
+/* second row */
+
 .c21{
-    top: 90px;
+
 }
 .c22{
-    top:90px;
     left: 90px;
 }
 .c23{
-    top: 90px;
-    left: ;
+    left: 180px;
+}
+.c24{
+    left: 270px;
+}
+.c25{
+    left: 360px;
+}
+.c26{
+    left: 450px;
+}
+.c27{
+    right: 90px;
+}
+.c28{
+    right: 0px;
+}
+
+/* Third row */
+
+.c31{
+}
+.c32{
+    left: 90px;
+}
+.c33{
+    left: 180px;
+}
+.c34{
+    left: 270px;
+}
+.c35{
+    left: 360px;
+}
+.c36{
+    left: 450px;
+}
+.c37{
+    right: 90px;
+}
+.c38{
+    right: 0px;
+}
+
+/* Fourth row */
+
+.c41{
+}
+.c42{
+    left: 90px;
+}
+.c43{
+    left: 180px;
+}
+.c44{
+    left: 270px;
+}
+.c45{
+    left: 360px;
+}
+.c46{
+    left: 450px;
+}
+.c47{
+    right: 90px;
+}
+.c48{
+    right: 0px;
+}
+
+/* Fifth Row */
+
+.c51{
+}
+.c52{
+    left: 90px;
+}
+.c53{
+    left: 180px;
+}
+.c54{
+    left: 270px;
+}
+.c55{
+    left: 360px;
+}
+.c56{
+    left: 450px;
+}
+.c57{
+    right: 90px;
+}
+.c58{
+    right: 0px;
+}
+
+/* Sixth Row */
+
+.c61{
+
+}
+.c62{
+    left: 90px;
+}
+.c63{
+    left: 180px;
+}
+.c64{
+    left: 270px;
+}
+.c65{
+    left: 360px;
+}
+.c66{
+    left: 450px;
+}
+.c67{
+    right: 90px;
+}
+.c68{
+    right: 0px;
+}
+
+/* Seventh Row */
+
+.c71{
+}
+.c72{
+    left: 90px;
+}
+.c73{
+    left: 180px;
+}
+.c74{
+    left: 270px;
+}
+.c75{
+    left: 360px;
+}
+.c76{
+    left: 450px;
+}
+.c77{
+    right: 90px;
+}
+.c78{
+    right: 0px;
+}
+
+/* Eigth Row */
+
+.c81{
+
+}
+.c82{
+    left: 90px;
+}
+.c83{
+    left: 180px;
+}
+.c84{
+    left: 270px;
+}
+.c85{
+    left: 360px;
+}
+.c86{
+    left: 450px;
+}
+.c87{
+    right: 90px;
+}
+.c88{
+    right: 0px;
 }
