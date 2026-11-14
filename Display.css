@@ -1,0 +1,16 @@
+h1{
+    color:blueviolet;
+    display: inline;
+}
+span{
+    color: blue;
+    display: block;
+    background-color: yellow;
+}
+p{
+    color: tomato;
+    display: inline-block;
+    background-color: black;
+    height: 25px;
+    width: 150px;
+}
