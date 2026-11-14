@@ -1,46 +1,37 @@
 nav{
     height: 100px;
     width: 100%;
+    position: sticky;
 }
-
-
 #n1{
     background-color: red;
-    position: sticky;
     top: 0px;
 }
 #n2{
     background-color: greenyellow;
-    position: sticky;
     top: 100px;
 }
 #n3{
     background-color: black;
-    position: sticky;
     top: 200px;
 }
 #n4{
     background-color: blue;
-    position: sticky;
     top: 300px;
 }
 #n5{
     background-color:yellow;
-    position: sticky;
     top: 400px;
 }
 #n6{
     background-color: pink;
-    position: sticky;
     top: 500px;
 }
 #n7{
     background-color: blueviolet;
-    position: sticky;
     top: 600px;
 }
 #n8{
     background-color: rgb(237, 131, 16);
-    position: sticky;
     top: 700px;
 }
