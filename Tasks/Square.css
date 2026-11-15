@@ -1,10 +1,102 @@
-.main{
-   width:260px;
-   height: 260px;
-   position: relative;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.cornerleft{
-    width: 35px;
-    height: 35px;
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+/* Main frame */
+.frame {
+    width: 260px;
+    height: 260px;
+    position: relative;
+}
+
+/* Corner design */
+.corner {
     position: absolute;
+    width: 32px;
+    height: 32px;
+    border-color: #555;
+    border-style: solid;
+    border-width: 0;
+}
+
+/* Top left */
+.top-left {
+    top: 0;
+    left: 0;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-top-left-radius: 10px;
+}
+
+/* Top right */
+.top-right {
+    top: 0;
+    right: 0;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-top-right-radius: 10px;
+}
+
+/* Bottom left */
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-bottom-left-radius: 10px;
+}
+
+/* Bottom right */
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Middle lines */
+.line {
+    position: absolute;
+    background-color: #555;
+}
+
+/* Top line */
+.line.top {
+    width: 65%;
+    height: 3px;
+    left: 18%;
+}
+
+/* Bottom line */
+.line.bottom {
+    width: 65%;
+    height: 3px;
+    bottom: 1px;
+    left: 18%;
+}
+
+/* Left line */
+.line.left {
+    width: 3px;
+    height: 65%;
+    top: 18%;
+}
+
+/* Right line */
+.line.right {
+    width: 3px;
+    height: 65%;
+    right: 1px;
+    top: 18%;
 }
