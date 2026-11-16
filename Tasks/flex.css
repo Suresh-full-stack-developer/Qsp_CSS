@@ -22,3 +22,6 @@
 h1{
     color: white;
 }
+h1::first-letter{
+    color:red;
+}
