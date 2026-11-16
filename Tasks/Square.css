@@ -13,7 +13,7 @@ body {
 }
 
 /* Main frame */
-.frame {
+.box {
     width: 260px;
     height: 260px;
     position: relative;
@@ -72,7 +72,7 @@ body {
 }
 
 /* Top line */
-.line.top {
+.top {
     width: 65%;
     height: 3px;
     left: 18%;
