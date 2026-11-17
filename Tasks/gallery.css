@@ -1,0 +1,71 @@
+section{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgb(219, 64, 64),gray);
+}
+#title{
+    height: 100px;
+    width: 500px;
+    /* border: 2px solid white; */
+    position: relative;
+    left: 700px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+}
+h1::first-letter{
+    color: white;
+    font-size: 45px;
+}
+h1::after{
+    content:"😎";
+}
+#mainbox{
+    height: 700px;
+    width: 1300px;
+    /* border: 3px solid black; */
+    position: absolute;
+    left: 100px;
+    top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    /* border: 3px solid red; */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.b1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkre31TSLCuBEWmDLlFaz6KmNC28AKP7u0Hol95dLsBQ&s=10);
+}
+.b2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3x0PUz1eYJkWrBkEURzF0o-f5MU9gx7T28-T908_EXA&s=10);
+}
+.b3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ixUFH_sbIqyk7lfuhS0Y4GDuxGq6pzBXqsOFh-VAy2TVcm4q_YPrTfI&s=10);
+}
+.b4{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXlaLeZI_1i_MlKaZkVlcDAOuDCtE1EcR3m4YMWfav1g&s);
+}
+.b5{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Fxpx6IrJsKK-zQIkHYQTG9Er-FyWYs4ZAOrpOnYAIg&s=10);
+}
+.b6{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeNJRo_G-hTkIUlwUm3Wm4vHR_lgmuJthBq44fDdk0vA&s=10);
+}
+.b7{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3UnHzs7Y9YylODM98ZyNsFrYWt-ZEn1f8PAUgN65FCA&s=10);
+}
+.b8{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzuVaFfB1BdJMC91KLzbPjwhArkJkOEY1bJ7LrtYuFNjZfytbKtz4dsQ&s=10);
+}
+.box:hover{
+    box-shadow: 0px 0px 30px white;
+}
