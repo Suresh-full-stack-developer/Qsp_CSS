@@ -42,6 +42,9 @@ h1::after{
     background-position: center;
     border-radius: 20px;
 }
+.box:hover{
+    box-shadow: 0px 0px 30px white;
+}
 .b1{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkre31TSLCuBEWmDLlFaz6KmNC28AKP7u0Hol95dLsBQ&s=10);
 }
@@ -65,7 +68,4 @@ h1::after{
 }
 .b8{
     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzuVaFfB1BdJMC91KLzbPjwhArkJkOEY1bJ7LrtYuFNjZfytbKtz4dsQ&s=10);
-}
-.box:hover{
-    box-shadow: 0px 0px 30px white;
 }
