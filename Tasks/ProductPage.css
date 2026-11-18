@@ -17,7 +17,7 @@ section{
 }
 #title{
     height: 50px;
-    width: 300px;
+    width: 500px;
     /* border: 3px solid black; */
     display: flex;
     justify-content: center;
@@ -28,34 +28,59 @@ section{
     font-size: 30px;
     color: white;
 }
+#title h1:hover{
+    text-shadow: 0px 0px 50px white;
+}
+#title h1::first-letter{
+    font-size: 40px;
+    color: red;
+}
+#title h1::after{
+    content: "";
+}
 #mainbox{
     height: 650px;
     width: 1200px;
-    background-color: whitesmoke;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    background-color: ;
+    box-shadow: 0px 0px 45px wheat;
 
 }
 .box{
     height: 250px;
     width: 250px;
-    border: 3px solid red;
+    border-radius: 10px;
+    border: 3px solid black;
+
+}
+.box:hover{
+    box-shadow: 0px 0px 45px 0px white;
 }
 .img{
-    height: 70%;
+    height: 65%;
     width: 100%;
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     background-size: cover;
     background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .content{
-    height: 30%;
+    height: 35%;
     width: 100%;
-    border: 3px solid orange;
+    /* border: 3px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     background-color: yellow;
 }
 .content h1{
     color: black;
@@ -67,8 +92,35 @@ section{
 }
 .content button{
     height: 20px;
-    width: 100px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: skyblue;
+}
+.content button:hover{
+    background-color:blue;
+    color: white
 }
 .i1{
-    background-image: url(https://thumbs.dreamstime.com/b/medieval-flail-weapon-icon-spiked-ball-chain-isolated-solid-white-background-medieval-flail-weapon-icon-featuring-468342880.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6T16-sNkZeOxw05VOSDR4fczf0nAw570HrQ0tXl-HqQ&s=10);
+}
+.i2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK8ObkWKscY44_d3acSdiDNXdmOicl83Vcpo4zD64jgg&s=10);
+}
+.i3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbXG_yiGurbE3y00HSqxDgueDhjMgm0Sogk_jtK5VNmA&s=10);
+}
+.i4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6C63EMEbRemiEX82FnhZCwnXrOvxKUH9kmeBU77Qm1Q&s=10);
+}
+.i5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLq_FJCFz0TouXcsydj3m1X_nQ9pyQB-o8obJzNqPM9A&s=10);
+}
+.i6{
+    background-image: url(https://t4.ftcdn.net/jpg/19/77/19/51/360_F_1977195173_4RMii8rYuhvHIB94CgT7PB5u6tuJp0z0.jpg);
+}
+.i7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-F8mSH99-lQ-grGwRO6MZjjkmp0YiwmpmNtkEg1kR-w&s=10);
+}
+.i8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIB5O1v36zI-EvQJRvTMEtuj01MKxQJ-urWWJCulfNQA&s=10);
 }
