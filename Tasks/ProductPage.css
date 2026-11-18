@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdfMN5MkIqI8LPPNAZmHWKFe--cgwZ5pMRWhN8rHhArw&s=10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#title{
+    height: 50px;
+    width: 300px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#title h1{
+    font-family: Arial;
+    font-size: 30px;
+    color: white;
+}
+#mainbox{
+    height: 650px;
+    width: 1200px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 3px solid red;
+}
+.img{
+    height: 70%;
+    width: 100%;
+    border: 3px solid yellow;
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    height: 30%;
+    width: 100%;
+    border: 3px solid orange;
+}
+.content h1{
+    color: black;
+    font-size: 20px;
+}
+.content h2{
+    color: tomato;
+    font-size: 15px;
+}
+.content button{
+    height: 20px;
+    width: 100px;
+}
+.i1{
+    background-image: url(https://thumbs.dreamstime.com/b/medieval-flail-weapon-icon-spiked-ball-chain-isolated-solid-white-background-medieval-flail-weapon-icon-featuring-468342880.jpg);
+}
