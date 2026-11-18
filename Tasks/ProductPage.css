@@ -29,14 +29,14 @@ section{
     color: white;
 }
 #title h1:hover{
-    text-shadow: 0px 0px 50px white;
+    text-shadow: 0px 0px 20px white;
 }
 #title h1::first-letter{
     font-size: 40px;
     color: red;
 }
 #title h1::after{
-    content: "";
+    content: "🪖⚔️";
 }
 #mainbox{
     height: 650px;
@@ -47,7 +47,6 @@ section{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: ;
     box-shadow: 0px 0px 45px wheat;
 
 }
@@ -94,7 +93,8 @@ section{
     height: 20px;
     width: 70px;
     border-radius: 7px;
-    background-color: skyblue;
+    background-color: red;
+    color: white;
 }
 .content button:hover{
     background-color:blue;
