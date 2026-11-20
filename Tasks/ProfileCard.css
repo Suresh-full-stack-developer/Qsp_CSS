@@ -2,7 +2,7 @@
 section{
     height: 100vh;
     width: 100%;
-    background: radial-gradient(white,turquoise);
+    background: radial-gradient(white,rgb(90, 228, 214));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ section{
     border-radius: 30px;
 }
 #mainbox:hover{
-    box-shadow: 0px 0px 25px yellow;
+    box-shadow: 0px 0px 25px gold;
 }
 #img{
     height: 40%;
@@ -43,7 +43,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: Gold;
+    color: black;
     background-color:white;
     font-family: Arial;
     text-shadow: 0px 0px 40px white;

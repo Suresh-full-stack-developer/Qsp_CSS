@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background:linear-gradient(red,rgb(58, 50, 50));
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#logo{
+    height: 100%;
+    width: 15%;
+    /* border: 3px solid white; */
+    background-image: url(../Assets/avengers-png-logo-4987.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#links{
+    height: 100%;
+    width: 40%;
+    /* border: 3px solid white; */
+}
+ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+li{
+    color: white;
+    font-size: 20px;
+}
+li:hover{
+    text-shadow: 2px 2px 3px yellow ;
+    cursor: pointer;
+    text-decoration: underline;
+}
