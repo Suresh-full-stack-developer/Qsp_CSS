@@ -12,14 +12,25 @@ section{
     align-items: center;
 }
 main{
-    height: 700px;
-    width: 800px;
+    height: 1000px;
+    width: 1200px;
     background-color: skyblue;
     display: grid;
-    grid-template-rows: 200px 200px 200px 200px ;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: repeat(4,200px) ;
+    grid-template-columns: repeat(4,200px);
+    /* row-gap: 20px;
+    column-gap: 20px; */
+    gap: 15px;
+    justify-content: center;
+    /* align-items: center; */
 }
 div{
     background-color: white;
     border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: tomato;
 }
