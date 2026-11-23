@@ -1,38 +1,73 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ScoreCard</title>
-    <link rel="stylesheet" href="./ScoreCard.css" />
-  </head>
-  <body>
-    <section>
-      <div id="main">
-        <div id="box1">
-          <div id="res">
-            <h2>Your Result</h2>
-          </div>
-          <div id="circle">
-            <h1>80</h1>
-            <h5>of 100</h5>
-          </div>
-          <div id="text">
-            <h3>Great</h3>
-            <h4>You scored higher than 70% oft he people who have taken these tests.</h4>
-          </div>
-        </div>
-        <div id="box2">
-            <div id="b1">
-                <h2>Summary</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score Card</title>
+    <link rel="stylesheet" href="ScoreCard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="box">
+
+            <!-- Result Section -->
+            <div class="result">
+
+                <h3>Your Result</h3>
+
+                <div class="circle">
+                    <h1>80</h1>
+                    <p>of 100</p>
+                </div>
+
+                <h2>Great</h2>
+
+                <p class="description">
+                    You scored higher than 70% of<br>
+                    the people who have taken<br>
+                    these tests.
+                </p>
+
             </div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <button>Click Me</button>
+
+            <!-- Summary Section -->
+            <div class="summary">
+
+                <h3>Summary</h3>
+
+                <div class="item reaction">
+                    <i class="fa-solid fa-bolt"></i>
+                    <p>Reaction</p>
+                    <span><b>90</b> / 100</span>
+                </div>
+
+                <div class="item memory">
+                    <i class="fa-solid fa-brain"></i>
+                    <p>Memory</p>
+                    <span><b>85</b> / 100</span>
+                </div>
+
+                <div class="item verbal">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <p>Verbal</p>
+                    <span><b>61</b> / 100</span>
+                </div>
+
+                <div class="item visual">
+                    <i class="fa-regular fa-eye"></i>
+                    <p>Visual</p>
+                    <span><b>70</b> / 100</span>
+                </div>
+
+                <button>Continue</button>
+
+            </div>
+
         </div>
-      </div>
-    </section>
-  </body>
+
+    </div>
+
+</body>
 </html>
