@@ -9,12 +9,15 @@ section{
     display: flex;
     justify-content: start;
     align-items: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfSImn99JzjQuUxrPx2J3Vynx4VKNYLX-xk-YGiAPY0g&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #main{
     height: 800px;
     width: 650px;
-    border: 3px solid red;
-    margin-left: 150px;
+    /* border: 3px solid red; */
+    margin-left: 100px;
     display: grid;
     grid-template-rows: repeat(5,150px);
     grid-template-columns: repeat(4,150px);
@@ -33,7 +36,7 @@ section{
     border-radius: 10px;
 }
 .box:hover{
-    box-shadow: 0px 0px 30px red;
+    box-shadow: 0px 0px 30px white;
 }
 .b1{
     grid-column: 1/3;
