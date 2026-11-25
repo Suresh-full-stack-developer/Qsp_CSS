@@ -1,0 +1,37 @@
+
+div{
+    height: 200px;
+    width: 200px;
+}
+#b1{
+    background-color: skyblue;
+}
+#b1:hover{
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(1.5); */
+    transform: scale(1.25);
+}
+#b2{
+    background-color: blue;
+}
+#b2:hover{
+    transform: rotate(20deg);
+}
+#b3{
+    background-color: tomato;
+}
+#b3:hover{
+    /* transform: translateX(20px); */
+    /* transform: translateY(15px); */
+    transform:translate(20px,20px) ;
+}
+#b4{
+    background-color: violet;
+}
+#b4:hover{
+    /* transform: skewX(15deg);
+    transform: skewX(-15deg); */
+    /* transform: skewY(20deg); */
+    /* transform: skewY(-20deg); */
+    transform: skew(20deg,15deg);
+}
