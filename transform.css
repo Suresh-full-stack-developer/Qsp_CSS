@@ -5,28 +5,40 @@ div{
 }
 #b1{
     background-color: skyblue;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    /* transition: all 0.5s 0s; */
 }
 #b1:hover{
     /* transform: scaleX(0.5); */
     /* transform: scaleY(1.5); */
     transform: scale(1.25);
+    background-color: black;
 }
 #b2{
     background-color: blue;
+    transition:all 1s ease-in 0s ;
 }
 #b2:hover{
     transform: rotate(20deg);
+    background-color: violet;
+    border-radius: 50%;
+
 }
 #b3{
     background-color: tomato;
+    transition:all 1s ease-in 0s ;
 }
 #b3:hover{
     /* transform: translateX(20px); */
     /* transform: translateY(15px); */
     transform:translate(20px,20px) ;
+    background-color: yellowgreen;
 }
 #b4{
     background-color: violet;
+    transition:all 1s ease-in 0s ;
 }
 #b4:hover{
     /* transform: skewX(15deg);
@@ -34,4 +46,5 @@ div{
     /* transform: skewY(20deg); */
     /* transform: skewY(-20deg); */
     transform: skew(20deg,15deg);
+    background-color: skyblue;
 }
