@@ -35,9 +35,11 @@ li{
     color: white;
     font-size: 20px;
     font-family: Arial;
+    transition: all 0.3s ease-in 0s;
 }
 li:hover{
-    text-shadow: 2px 2px 3px yellow ;
+    text-shadow: 0px 3px 5px yellow ;
     cursor: pointer;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    transform: translateY(-3px);
 }
